@@ -21,7 +21,7 @@
 
     </div>
     <div class="menu-item">
-        <img src="/static/green-curry.jpg" alt="Green Curry">
+        <img src="/static/meats.png" alt="Pizza Meat">
         <h3>Healthy Meats</h3>
         <p>Our commitment to quality starts with our meats and cheeses.
             We work closely with trusted suppliers to bring you lean,
