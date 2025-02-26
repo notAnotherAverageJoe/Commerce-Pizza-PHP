@@ -4,14 +4,20 @@ FROM php:8.2-apache
 # Install dependencies (optional)
 RUN docker-php-ext-install pdo pdo_mysql mysqli
 
-# Copy your project files into the container
+# Enable mod_rewrite
+RUN a2enmod rewrite
+
+# Restart Apache to apply changes
+RUN service apache2 restart
+
+# Copy project files
 COPY . /var/www/html/
 
-# Set the working directory
+# Set working directory
 WORKDIR /var/www/html
 
-# Expose port 80 (default HTTP port)
+# Expose port 80
 EXPOSE 80
 
-# Start Apache when the container runs
+# Start Apache
 CMD ["apache2-foreground"]
