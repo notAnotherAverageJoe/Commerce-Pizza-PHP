@@ -1,5 +1,5 @@
 <?php
-$restaurant_name = "🍕 Cheesey Does It 🧀";
+$restaurant_name = "🍕 Cheesy Does It 🧀";
 ?>
 
 <!DOCTYPE html>

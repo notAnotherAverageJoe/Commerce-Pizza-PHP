@@ -1,6 +1,6 @@
 <?php
 $current_year = date('Y');
-$restaurant_name = "Cheesey Does It"
+$restaurant_name = "Cheesy Does It"
 
 ?>
 
