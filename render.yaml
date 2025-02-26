@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: commerce-pizza-php
+    env: docker
+    repo: https://github.com/notAnotherAverageJoe/Commerce-Pizza-PHP
+    plan: free
+    branch: main
+    rootDir: .
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
