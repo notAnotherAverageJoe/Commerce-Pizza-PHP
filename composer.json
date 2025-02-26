@@ -1,0 +1,16 @@
+{
+    "name": "joseph/pizza",
+    "description": "Pizza",
+    "autoload": {
+        "psr-4": {
+            "Joseph\\Pizza\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "joseph skokan",
+            "email": "joeskokan20@gmail.com"
+        }
+    ],
+    "require": {}
+}

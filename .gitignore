@@ -1,0 +1,25 @@
+# Composer dependencies
+/vendor/
+composer.lock
+
+# Environment variables
+.env
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and caches
+*.log
+logs/
+cache/
+storage/
+
+# PHPUnit result cache
+.phpunit.result.cache
